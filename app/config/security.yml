@@ -34,6 +34,7 @@ security:
           form_login:
                 login_path: /usuarios/login
                 check_path: /usuarios/login
+                default_target_path: /usuarios/login
           logout:
                 path:    /usuarios/logout
                 target:  /usuarios/login
