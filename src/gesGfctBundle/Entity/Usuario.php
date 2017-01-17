@@ -8,7 +8,7 @@ use Symfony\Component\Security\Core\User\UserInterface;
 /**
  * Usuario
  *
- * @ORM\Table(name="usuario")
+ * @ORM\Table(name="usuarios")
  * @ORM\Entity(repositoryClass="gesGfctBundle\Repository\UsuarioRepository")
  */
 class Usuario implements UserInterface

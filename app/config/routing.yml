@@ -5,3 +5,8 @@ ges_gfct:
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
+
+admin:
+  resource: "@gesGfctBundle/Controller"
+  type: annotation
+  prefix: /admin/

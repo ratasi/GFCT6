@@ -39,3 +39,18 @@ api_profesores:
 registro:
     path:     /register
     defaults: {_controller: gesGfctBundle:Default:register}
+
+admin:
+  path:       /admin
+  defaults:   {_controller:gesGfctBundle:Admin:all}
+
+usuarios:
+  path:       /usuarios/login
+  defaults:   {_controller:gesGfctBundle:Admin:login}
+
+usuario:
+  path:       /usuarios/
+  defaults:   {_controller:gesGfctBundle:Admin:login}
+
+logout:
+    path:     /usuarios/logout

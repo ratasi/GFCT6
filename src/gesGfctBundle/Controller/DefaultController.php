@@ -6,6 +6,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use gesGfctBundle\Entity\Usuario;
 use Symfony\Component\HttpFoundation\Request;
 use gesGfctBundle\Form\UsuarioType;
+use Symfony\Component\HttpFoundation\Response;
 
 
 class DefaultController extends Controller
